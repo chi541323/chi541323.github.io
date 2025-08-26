@@ -87,8 +87,18 @@ layout: default
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <div class="card mt-3 p-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <h3 class="card-title font-weight-medium mb-3">
+                  {{ data[0] | capitalize }}
+                </h3>
+                {% case data[0] %}
+                  {% when 'projects' %}
+                    <a href="{{ '/projects/' | relative_url }}" class="btn btn-sm btn-custom">
+                      More Detail
+                    </a>
+                {% endcase %}
+              </div>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
