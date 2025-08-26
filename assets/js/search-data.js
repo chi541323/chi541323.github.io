@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
@@ -402,51 +402,31 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-masque-exploring-lateral-skin-stretch-feedback-on-the-face-with-head-mounted-displays",
+          title: 'Masque - Exploring Lateral Skin Stretch Feedback on the Face with Head-Mounted Displays...',
+          description: "An HMD prototype with six skin stretch modules providing 2D haptic feedback on the face. Conducted studies on shear tactor design, comfort, and perceivable stretch distances and angles. Results show Masque enhances VR experiences and is well-received by users as a novel HMD feedback modality.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_Masque/";
+            },},{id: "projects-gaiters-exploring-skin-stretch-feedback-on-legs-for-enhancing-virtual-reality-experiences",
+          title: 'Gaiters - Exploring Skin Stretch Feedback on Legs for Enhancing Virtual Reality Experiences...',
+          description: "Leg-worn devices that generate 2D skin stretch feedback to simulate virtual textures and directional cues. Conducted studies on perceivable stretch and evaluated user experiences. Results show rich and enjoyable haptic feedback on the lower limbs in VR.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_Gaiters/";
+            },},{id: "projects-pupop-pop-up-prop-on-palm-for-virtual-reality",
+          title: 'PuPoP - Pop-up Prop on Palm for Virtual Reality',
+          description: "A lightweight pneumatic palm interface that pops airbags with predefined shapes to simulate grasping virtual objects. Conducted user studies on shape perception and VR interaction. Results show that dynamic PuPoP enhances realism and enjoyment in VR object manipulation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_PuPoP/";
+            },},{id: "projects-aarnio-passive-kinesthetic-force-output-for-foreground-interactions-on-an-interactive-chair",
+          title: 'Aarnio - Passive Kinesthetic Force Output for Foreground Interactions on an Interactive Chair...',
+          description: "A standard office chair prototype providing foreground haptic force output, modulating resistive forces when rotating, tilting, or rolling the chair. Conducted studies to determine recognizability of five force profiles. Results demonstrate novel interaction techniques for immersive VR and ubiquitous computing environments.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_Aarnio/";
+            },},{id: "projects-elastilinks-force-feedback-between-vr-controllers-with-dynamic-points-of-application-of-force",
+          title: 'ElastiLinks - Force Feedback between VR Controllers with Dynamic Points of Application of...',
+          description: "Handheld VR controllers that provide force feedback with dynamic points of application (PAFs) using rotatable tracks. Conducted perception studies on resistive and impact forces, as well as PAF offsets and rotations. Results show that dynamic PAFs enhance realism and user experience in VR.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/5_ElastiLinks/";
             },},{
         id: 'social-email',
         title: 'email',
