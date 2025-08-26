@@ -230,11 +230,3 @@ ul.timeline li::before {
   align-items: center; /* 垂直置中 */
   gap: 8px; /* icon 與文字的間距 */
 }
-.icon-text i {
-  width: 20px; /* 統一icon區域寬度 */
-  text-align: center;
-}
-
-.text-color-custom {
-  color: var(--global-theme-color) !important
-}

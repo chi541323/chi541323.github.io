@@ -2,7 +2,7 @@
 layout: page
 title: ElastiLinks - Force Feedback between VR Controllers with Dynamic Points of Application of Force
 description: Handheld VR controllers that provide force feedback with dynamic points of application (PAFs) using rotatable tracks. Conducted perception studies on resistive and impact forces, as well as PAF offsets and rotations. Results show that dynamic PAFs enhance realism and user experience in VR.
-img: assets/img/Elastilink/elastilink_30.gif
+img: assets/img/ElastiLink/Elastilink_30.gif
 importance: 5
 category: Human-Computer Interactions
 paper: ACM UIST 20

@@ -2,80 +2,149 @@
 layout: page
 title: Gaiters - Exploring Skin Stretch Feedback on Legs for Enhancing Virtual Reality Experiences
 description: Leg-worn devices that generate 2D skin stretch feedback to simulate virtual textures and directional cues. Conducted studies on perceivable stretch and evaluated user experiences. Results show rich and enjoyable haptic feedback on the lower limbs in VR.
-img: assets/img/Gaiters/gaiters_30.gif
+img: assets/img/gaiters/gaiters_30.gif
 importance: 2
 category: Human-Computer Interactions
 paper: ACM CHI 19
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Leg-worn devices that generate 2D skin stretch feedback to simulate virtual textures and directional cues. Conducted studies on perceivable stretch and evaluated user experiences. Results show rich and enjoyable haptic feedback on the lower limbs in VR.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="embed-responsive embed-responsive-16by9 mb-3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ0PffUZP70?si=Iht25dGNNinJQtlq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<!-- Motivation -->
+<div>
+    <h2 class="mt-5 font-weight-bold">Motivation</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <p>While haptic feedback in VR has traditionally focused on the hands, torso, or face, the legs have been relatively underexplored, despite their central role in locomotion. This work explores skin-stretch feedback on the legs, aiming to enhance immersion by delivering cues related to inertia, motion guidance, and ground contact. We developed wearable gaiters with shear tactors mounted on the calves to investigate the potential of this feedback modality in VR.</p>
+
+    <div class="row">
+        <div class="col-sm mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/gaiters/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<!-- Design -->
+<div>
+    <h2 class="mt-5 font-weight-bold">Design Prototype</h2>
+    <p>To design the shear tactors, we first aimed to identify a contact surface size and shape that most people would find both comfortable and perceptible. Since facial geometry varies significantly across individuals, we conducted an informal exploratory study with twelve participants to evaluate different tactor designs. This study helped us understand which dimensions and forms could deliver consistent and noticeable skin stretch.</p>
+
+    <ul>
+        <li class="font-weight-bold">Tactor shape & size pre-study: Compared convex, flat, concave shapes (10/20/30 mm):</li>
+        <ul>
+            <li>Users preferred 30 mm concave tactors: stable contact, clear sensation, less bone pressure</li>
+            <li>10 mm felt sharp and uncomfortable</li>
+        </ul>
+        <li class="font-weight-bold">Masque Prototype:</li>
+        <ul>
+            <li>Six actuators: L1/R1 (upper, forehead), L2/R2 (cheeks), L3/R3 (jawline)</li>
+            <li>Each tactor = 30 mm concave disk + 2 mm silicone cover, max displacement 15 mm, PC-controlled</li>
+            <li>To reduce weight, two mounting options: overhead suspension or body-mounted counterweight</li>
+        </ul>
+    </ul>
+
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm-8 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<!-- User Study -->
+<div>
+    <h2 class="mt-5 font-weight-bold">User Study</h2>
+    <p>We conducted three user studies to evaluate how people perceive and interpret facial skin stretch feedback with Masque. Participants experienced a series of VR scenarios where tactors delivered controlled directional and intensity-based feedback. We collected both <b>quantitative</b> and <b>qualitative</b> data, including <b>Likert-scale ratings</b> and <b>post-experience interviews</b>, to understand the effectiveness of skin stretch for conveying guidance, motion, and expression. The study was designed to assess intuitiveness, comfort, and the potential for skin stretch to enhance immersion in VR environments.</p>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <ul>
+        <li class="font-weight-bold">EVALUATING PHYSICAL COMFORT</li>
+            <ul>
+                <li>12 participants (20–27 yrs, HMD experience).</li>
+                <li>Most found displacements ≤15 mm acceptable.</li>
+                <li>Upward stretch caused breathing issues; average upper limit ~14.2 mm.</li>
+                <li>Final reference: 5 mm baseline, usable range 0–10 mm (safe across all participants).</li>
+            </ul>
+        <li class="font-weight-bold">DISTANCE JND (Just Noticeable Difference)</li>
+            <ul>
+                <li>3-alternative forced choice with staircase method.</li>
+                <li>Average JND ≈ 24.6% at 5 mm baseline (~1.23 mm).</li>
+                <li>No significant effect of location or direction → same parameters apply across all tactor sites.</li>
+            </ul>
+        <li class="font-weight-bold">ANGLE DISCRIMINATION</li>
+            <ul>
+                <li>Measured perceptual threshold for distinguishing stretch directions.</li>
+                <li>Average threshold ≈ 22.7°.</li>
+                <li>Parallel-to-skin directions were more sensitive than perpendicular ones.</li>
+                <li>At least 8 reliable directions (every ~45°) can be distinguished.</li>
+            </ul>
+    </ul>
+
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+
+<!-- Demo Application -->
+<div>
+    <h2 class="mt-5 font-weight-bold">Demo Application</h2>
+    <p>We implemented three applications, all developed using the Unity3D game engine, and are integrated with the VIVE developing environment and tracking system. A set of profiles were created based on our previous study results.</p>
+
+    <ul>
+        <li class="font-weight-bold">Application 1: Motorcycle Racing</li>
+            <ul>
+                <li>Simulated the helmet’s weight</li>
+                <li>Inertia during sharp turns</li>
+                <li>The sensation of riding on bumpy roads</li>
+                <li>Simulate wind pressure</li>
+            </ul>
+        <li class="font-weight-bold">Application 2: Snowball Fight</li>
+            <ul>
+                <li>Impact of a direct hit</li>
+                <li>The subtle graze of a near miss</li>
+            </ul>
+        <li class="font-weight-bold">Application 3: Virtual Museum Guidance</li>
+            <ul>
+                <li>Demonstrating the Masque’s potential for fine-grained directional guidance</li>
+            </ul>
+    </ul>
+
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/masque/9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<!-- Finding -->
+<div>
+    <h2 class="mt-5 font-weight-bold">Finding</h2>
+    <p>Our study revealed that participants could reliably distinguish different directions and intensities of skin stretch feedback, supporting its potential for directional guidance and motion cues. Users reported that the sensation felt natural and immersive, particularly when paired with visual VR content. Some participants also noted that facial skin stretch could evoke emotional or expressive responses, highlighting its unique potential beyond traditional haptic modalities. At the same time, we identified challenges such as calibration for individual facial differences and ensuring long-term comfort, which point toward directions for future refinement.</p>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div>
+    <p>For more details, please see our paper
+        <a href="/assets/papers/Masque.pdf" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">
+        <i class="fa-solid fa-file-pdf"></i> Download PDF
+        </a>
+    </p>
 </div>
-```
-
-{% endraw %}
