@@ -229,3 +229,11 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
     <h2 class="mt-5 font-weight-bold">Finding</h2>
         <p>Overall, the studies demonstrated that PuPoP successfully enables palm-mounted inflatable props to serve as versatile physical counterparts for virtual objects in VR. The system effectively leveraged visuo-haptic illusions, allowing a small set of physical props to represent a wide range of virtual sizes. Through prop stacking and extensions, PuPoP supported more complex grasping interactions beyond simple palm-opposite grasps, while the integration of sensing and pneumatic actuation enabled realistic emulation of object properties such as stiffness, weight, and pulsation. User studies showed that participants could accept size variations and interact naturally with the props, validating PuPoP as an effective and flexible on-body proxy interface for enhancing immersion in VR.</p>
 </div>
+
+<div>
+    <p>For more details, please see our paper
+        <a href="/assets/papers/PuPoP.pdf" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">
+        <i class="fa-solid fa-file-pdf"></i> Download PDF
+        </a>
+    </p>
+</div>

@@ -5,7 +5,7 @@ description: Leg-worn devices that generate 2D skin stretch feedback to simulate
 img: assets/img/gaiters/gaiters_30.gif
 importance: 2
 category: Human-Computer Interactions
-paper: ACM CHI 19
+paper: ACM CHI 20
 author: <span style='font-weight:900;'>Chi Wang</span>, Da-Yuan Huang, Shuo-Wen Hsu, Cheng-Lung Lin, Yeu-Luen Chiu, Chu-En Hou, Bing-Yu Chen
 ---
 
@@ -72,7 +72,6 @@ Leg-worn devices that generate 2D skin stretch feedback to simulate virtual text
         <div class="col-md-5 text-center">
             {% include figure.liquid path="assets/img/gaiters/4.png" title="example image" class="img-fluid rounded z-depth-1 w-100"%}
         </div>
-
         <!-- 右邊條列 -->
         <div class="col-md-7">
             <ul>
@@ -88,19 +87,38 @@ Leg-worn devices that generate 2D skin stretch feedback to simulate virtual text
 <div>
     <h2 class="mt-5 font-weight-bold">User Study</h2>
     <p>The aim of this exploratory study is to test these action-coupled profiles and to understand how to utilize them to induce different types of perceptions. The action-coupled study evaluated <b style="font-weight:900;">six stretch profiles (Upward, Downward, Forward, Backward, Leftward, Rightward)</b> across <b style="font-weight:900;">three leg actions (Standing, Walking, Kicking)</b> to investigate four perceptual categories: Pulling Force, Weight, Rotational Force, and Friction. </p>
-
-    <p>Results showed that</p>
     <ul>
-        <li>Downward and Backward stretches during Standing and Walking effectively induced pulling sensations.</li>
-        <li>While Upward and Downward stretches modulated weight perception (heavier vs. lighter legs).</li>
-        <li>Leftward and Rightward stretches were effective in evoking rotational forces during Standing but became less perceivable during dynamic actions like Walking or Kicking.</li>
-        <li>Friction-related sensations showed consistently high agreement across all profiles, supporting the use of leg skin stretch to simulate rich tactile textures.</li>
-    </ul>
-    <div class="row justify-content-sm-center">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.liquid path="assets/img/gaiters/7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        <li class="font-weight-bold">Objective</li>
+            <ul>
+                <li>To explore how combining leg actions with skin stretch profiles can induce different perceptions.</li>
+                <li>The study evaluated four perceptions: Pulling Force, Weight, Rotational Force, and Friction.</li>
+            </ul>
+        <li class="font-weight-bold">Study Design</li>
+            <ul>
+                <li class="font-weight-bold">Leg Actions</li>
+                Participants performed three common VR actions: Standing, Walking, and Kicking.
+                <li class="font-weight-bold">Skin Stretch Profiles</li>
+                Six directional profiles were tested: Upward, Downward, Forward, Backward, Leftward, and Rightward.
+                <li class="font-weight-bold">Perception Assessment</li>
+                Participants experienced each action-stretch combination and gave a binary "Yes" or "No" response as to whether it successfully induced a specific perception.
+            </ul>
+        <li class="font-weight-bold">Key Finding</li>
+            <ul>
+                <li class="font-weight-bold">Pulling Force</li>
+                Downward or Backward stretches during Standing or Walking were highly effective at inducing a pulling sensation (over 70% agreement). However, during a Kicking motion, the same stretches were perceived as an impact or acceleration force, suggesting that complex muscle movements interfere with the perception of skin stretch.
+                <li class="font-weight-bold">Leg Weight</li>
+                Upward stretches made legs feel lighter, while Downward stretches made them feel heavier during standing or walking. For kicking, upward and backward stretches enhanced the feeling of leg weight.
+                <li class="font-weight-bold">Rotational Force</li>
+                Leftward and Rightward stretches only created a clear rotational force sensation when participants were standing still. The sensation weakened significantly as leg actions became more dynamic.
+                <li class="font-weight-bold">Friction</li>
+                All combinations were highly effective at simulating friction (over 70% agreement). Participants described the sensation as feeling "water splashing," "swimming fish," or "crawling insects."
+            </ul>
+        <div class="row justify-content-sm-center mt-3">
+            <div class="col-sm mt-3 mt-md-0">
+                {% include figure.liquid path="assets/img/gaiters/7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
         </div>
-    </div>
+    </ul>
 </div>
 
 
@@ -108,13 +126,12 @@ Leg-worn devices that generate 2D skin stretch feedback to simulate virtual text
 <div>
     <h2 class="mt-5 font-weight-bold">Demo Application</h2>
     <p>A user study with 16 participants assessed how effectively the gaiters conveyed direction, intensity, and realism of feedback in VR. Participants engaged in locomotion-related VR tasks with and without haptic feedback, allowing comparison of perceived immersion, guidance, and naturalness of experience.</p>
-
+    <!-- image -->
     <div class="row align-items-center">
         <!-- 左邊圖片 -->
         <div class="col-md-5 text-center">
             {% include figure.liquid path="assets/img/gaiters/8.png" title="example image" class="img-fluid rounded z-depth-1 w-100"%}
         </div>
-
         <!-- 右邊條列 -->
         <div class="col-md-7">
                 <ul>
@@ -125,7 +142,7 @@ Leg-worn devices that generate 2D skin stretch feedback to simulate virtual text
                             <li>The sensation of water walking resistance</li>
                             <li>Simulated the water flow</li>
                         </ul>
-                    <li class="font-weight-bold">Application 2: Fancy Goal Game</li>
+                    <li class="font-weight-bold mt-5">Application 2: Fancy Goal Game</li>
                         <ul>
                             <li>Frontal impact</li>
                             <li>Side impact</li>
@@ -134,6 +151,42 @@ Leg-worn devices that generate 2D skin stretch feedback to simulate virtual text
                 </ul>
         </div>
     </div>
+    <p class="font-weight-bold mt-3"> User Evaluation Study</p>
+    <ul>
+        <li class="font-weight-bold">Objective</li>
+            <ul>
+                <li>This study evaluated the value of Gaiters, a leg-worn skin-stretch feedback system, by comparing user experience with and without haptic feedback.</li>
+            </ul>
+        <li class="font-weight-bold">Task</li>
+            <ul>
+                <li>12 participants (6 females, ages 20-26), all with prior VR experience but no experience with leg-worn haptic devices.</li>
+                <li>They experienced two applications: a Horror Escape Game and a Fancy Goal Game.</li>
+                <li>After each session, participants rated their perceived Realism and Enjoyment on a 1-7 scale.</li>
+            </ul>
+        <li class="font-weight-bold">Key Finding</li>
+            <ul>
+                <li class="font-weight-bold">Horror Escape Game</li>
+                    <ul>
+                        <li class="font-weight-bold">Realism</li>
+                        Haptic feedback significantly increased realism scores. Participants found that haptics were more noticeable than visual or audio cues during moments of fear, with some reporting they wouldn't have known about a zombie attack without the haptic feedback.
+                        <li class="font-weight-bold">Enjoyment</li>
+                        Haptics significantly increased enjoyment, as participants found the game more thrilling and exciting. However, one user found the feedback distracting, suggesting that VR applications should give users control over haptic feedback.
+                    </ul>
+                <li class="font-weight-bold">Fancy Goal Game</li>
+                    <ul>
+                        <li class="font-weight-bold">Realism & Enjoyment</li>
+                        Haptic feedback significantly increased both realism and enjoyment. Participants noted that directional cues from the legs helped them feel the ball's path, enhancing immersion.
+                        <li class="font-weight-bold">Design Implication</li>
+                        A participant suggested that stronger skin-stretch stimuli could further enhance the realism of actions like a curve shot, indicating a need for improved mechanical design.
+                    </ul>
+            </ul>
+        <p class="mt-3">Leg-worn skin-stretch is a valuable addition to VR, significantly enhancing realism and enjoyment by providing situational awareness and complementing visual and audio cues, especially in high-intensity situations. Future designs should focus on improving tactor coverage and feedback strength while also giving users control over the feedback.</p>
+        <div class="row justify-content-sm-center mt-3">
+            <div class="col-sm-8 mt-3 mt-md-0">
+                {% include figure.liquid path="assets/img/gaiters/9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
+    </ul>
 </div>
 
 <!-- Finding -->
