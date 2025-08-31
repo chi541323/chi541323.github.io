@@ -429,7 +429,7 @@ ninja.data = [{
               window.location.href = "/projects/5_ElastiLinks/";
             },},{id: "projects-rehabilitation-and-fitness-wristband",
           title: 'Rehabilitation and Fitness Wristband',
-          description: "Wearable rehabilitation wristband with motion tracking and Bluetooth-enabled feedback for user monitoring.",
+          description: "A smart wristband solution that empowers users in both rehabilitation and fitness. It provides real-time motion tracking and Bluetooth feedback to ensure safe and effective exercise, transforming a traditional workout into a data-driven, guided experience.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_SmartWristband/";
             },},{
