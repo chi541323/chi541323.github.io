@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Rehabilitation and Fitness Wristband
-description: Wearable rehabilitation wristband with motion tracking and Bluetooth-enabled feedback for user monitoring.
-img: assets/img/Wristband/1.gif
+description: A smart wristband solution that empowers users in both rehabilitation and fitness. It provides real-time motion tracking and Bluetooth feedback to ensure safe and effective exercise, transforming a traditional workout into a data-driven, guided experience.
+img: assets/img/Wristband/1.png
 importance: 6
 category: Human-Computer Interactions
 paper: Course Project 2014
