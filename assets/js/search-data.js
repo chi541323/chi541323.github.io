@@ -427,6 +427,11 @@ ninja.data = [{
           description: "Handheld VR controllers that provide force feedback with dynamic points of application (PAFs) using rotatable tracks. Conducted perception studies on resistive and impact forces, as well as PAF offsets and rotations. Results show that dynamic PAFs enhance realism and user experience in VR.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_ElastiLinks/";
+            },},{id: "projects-rehabilitation-and-fitness-wristband",
+          title: 'Rehabilitation and Fitness Wristband',
+          description: "Wearable rehabilitation wristband with motion tracking and Bluetooth-enabled feedback for user monitoring.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_SmartWristband/";
             },},{
         id: 'social-email',
         title: 'email',
