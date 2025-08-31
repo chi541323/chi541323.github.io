@@ -243,3 +243,11 @@ A new type of haptic output for foreground interactions on an interactive chair,
     <h2 class="mt-5 font-weight-bold">Finding</h2>
         <p>We propose passive kinesthetic force output on an interactive chair by modulating the natural resistive forces of rotation, tilt, and rolling. Through a prototype and three user studies, participants distinguished force profiles with high accuracy (up to 93.75%). Beyond technical validation, this approach enables hands-free interactions in everyday life, such as controlling media, browsing content, or operating applications while reading, eating, or holding objects. It offers an alternative interaction paradigm that emphasizes comfort, accessibility, and convenience, pointing toward new directions in interactive furniture and smart IoT systems.</p>
 </div>
+
+<div>
+    <p>For more details, please see our paper
+        <a href="/assets/papers/Aarnio.pdf" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">
+        <i class="fa-solid fa-file-pdf"></i> Download PDF
+        </a>
+    </p>
+</div>
