@@ -419,7 +419,7 @@ ninja.data = [{
               window.location.href = "/projects/3_PuPoP/";
             },},{id: "projects-aarnio-passive-kinesthetic-force-output-for-foreground-interactions-on-an-interactive-chair",
           title: 'Aarnio - Passive Kinesthetic Force Output for Foreground Interactions on an Interactive Chair...',
-          description: "A standard office chair prototype providing foreground haptic force output, modulating resistive forces when rotating, tilting, or rolling the chair. Conducted studies to determine recognizability of five force profiles. Results demonstrate novel interaction techniques for immersive VR and ubiquitous computing environments.",
+          description: "A new type of haptic output for foreground interactions on an interactive chair, where input is carried out explicitly in the foreground of the user’s consciousness, modulating resistive forces when rotating, tilting, or rolling the chair. Conducted studies to determine recognizability of five force profiles. Results demonstrate novel interaction techniques for immersive VR and ubiquitous computing environments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_Aarnio/";
             },},{id: "projects-elastilinks-force-feedback-between-vr-controllers-with-dynamic-points-of-application-of-force",
