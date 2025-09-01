@@ -432,6 +432,16 @@ ninja.data = [{
           description: "A smart wristband solution that empowers users in both rehabilitation and fitness. It provides real-time motion tracking and Bluetooth feedback to ensure safe and effective exercise, transforming a traditional workout into a data-driven, guided experience.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_SmartWristband/";
+            },},{id: "projects-bridging-unity-and-arduino",
+          title: 'Bridging Unity and Arduino',
+          description: "Bridges the physical and virtual worlds. The Arduino-based embedded system collects real-time data (e.g., from a three-axis accelerometer or gyroscope) and transmits it to our Unity application via a physical connection (such as USB) or Bluetooth for real-time visualization and feedback. Conversely, our Unity interface can also send messages back to the Arduino to control components like a motor.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_Unity-Arduino-Communication/";
+            },},{id: "projects-pid-controller",
+          title: 'PID Controller',
+          description: "Using a PID Controller to Control a Motor. A PID controller is highly effective for motor control. Its primary application is to ensure a motor&#39;s output—such as speed, position, or torque—precisely reaches and maintains a set target value.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_PID-Controller/";
             },},{
         id: 'social-email',
         title: 'email',
