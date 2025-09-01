@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Human-Computer Interactions, Fun]
+display_categories: [Human-Computer Interactions, UI/UX, Fun]
 horizontal: true
 ---
 
