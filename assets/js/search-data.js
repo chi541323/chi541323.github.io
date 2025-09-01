@@ -402,7 +402,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-masque-exploring-lateral-skin-stretch-feedback-on-the-face-with-head-mounted-displays",
+          section: "News",},{id: "projects-mobile-banking-interface-for-overseas-bond-amp-fund-trading",
+          title: 'Mobile Banking Interface for Overseas Bond &amp;amp; Fund Trading',
+          description: "I developed and maintained a new mobile interface to enable customers to securely trade overseas bonds and manage funds. This project focused on creating a clear, intuitive experience that translated complex financial data into a user-friendly mobile application.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_BankApp/";
+            },},{id: "projects-masque-exploring-lateral-skin-stretch-feedback-on-the-face-with-head-mounted-displays",
           title: 'Masque - Exploring Lateral Skin Stretch Feedback on the Face with Head-Mounted Displays...',
           description: "An HMD prototype with six skin stretch modules providing 2D haptic feedback on the face. Conducted studies on shear tactor design, comfort, and perceivable stretch distances and angles. Results show Masque enhances VR experiences and is well-received by users as a novel HMD feedback modality.",
           section: "Projects",handler: () => {
@@ -442,6 +447,11 @@ ninja.data = [{
           description: "Using a PID Controller to Control a Motor. A PID controller is highly effective for motor control. Its primary application is to ensure a motor&#39;s output—such as speed, position, or torque—precisely reaches and maintains a set target value.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_PID-Controller/";
+            },},{id: "projects-designing-ar-hmi-controls-for-robotic-systems",
+          title: 'Designing AR HMI Controls for Robotic Systems',
+          description: "This project explored a new human-machine interaction paradigm for industrial environments. I designed a proof-of-concept using an Augmented Reality (AR) interface to enable intuitive and seamless gestural control of a robotic system.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_HoloLensAR/";
             },},{
         id: 'social-email',
         title: 'email',
