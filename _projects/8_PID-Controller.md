@@ -72,7 +72,7 @@ category: Fun
 <div>
     <h2 class="mt-5 font-weight-bold my-color-b">Example</h2>
         <p>You can download example here
-            <a href="/assets/PIDController/PID-Controller.zip" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">
+            <a href="/assets/img/PIDController/PID-Controller.zip" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">
             <i class="fa-solid fa-file-pdf"></i> Download
             </a>
         </p>
