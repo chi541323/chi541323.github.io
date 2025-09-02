@@ -6,6 +6,81 @@
     "email": "chi541323@gmail.com",
     "location": "Taipei, Taiwan"
   },
+  "skills": [
+    {
+      "name": "<div class='my-color-b font-weight-bold'>Programming Languages</div>",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "categories": [
+        {
+          "items": [
+            "C/C++", 
+            "C#", 
+            "Java"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "<div class='my-color-b font-weight-bold'>Human-Computer Interaction</div>",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "categories": [
+        {
+          "title": "<div class='my-color-b'>Research Methods</div>",
+          "items": [
+            "User Study Design",
+            "Survey Methods (Likert Scale, Pre/Post Testing)",
+            "Usability Testing",
+            "Qualitative Analysis"
+          ]
+        },
+        {
+          "title": "<div class='my-color-b'> Prototyping & Tools</div>",
+          "items": [
+            "Arduino (C/C++)",
+            "Unity3D (C#)",
+            "Processing (Java)",
+            "SteamVR, LeapMotion, MRTK",
+            "Android Studio"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "<div class='my-color-b font-weight-bold'>Front-end Development</div>",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "categories": [
+        {
+          "items": [
+            "Javascript", 
+            "HTML", 
+            "CSS", 
+            "JQuery", 
+            "Ajax"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "<div class='my-color-b font-weight-bold'>Tools & Soft Skills</div>",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "categories": [
+        {
+          "items": [
+            "Git", 
+            "Jira",
+            "Confluence",
+            "Team Collaboration", 
+            "Time Management", 
+            "Adaptability"
+          ]
+        }
+      ]
+    }
+  ],
   "work": [
     {
       "name": "Phison Electronics Corporation",
@@ -45,7 +120,7 @@
     {
       "institution": "National Taiwan University of Science and Technology (NTUST)",
       "location": "Taipei, Taiwan",
-      "area": "Computer Science",
+      "area": "Computer Science (focus on Human-Computer Interaction)",
       "studyType": "Master",
       "startDate": "2017",
       "endDate": "2019"
@@ -108,37 +183,28 @@
   // ],
   "projects": [
     {
-      "name": "Gaiters: Exploring Skin Stretch Feedback on Legs for Enhancing Virtual Reality Experiences",
-      "publisher": "<span style='font-weight:900;'>Chi Wang</span>, Da-Yuan Huang, Shuo-Wen Hsu, Cheng-Lung Lin, Yeu-Luen Chiu, Chu-En Hou, Bing-Yu Chen",
-      "releaseDate": "ACM CHI 20",
-      "list": 5,
-      "url": "https://dl.acm.org/doi/10.1145/3313831.3376865",
-      "pdf": "/assets/papers/Gaiters.pdf",
-      "summary": "Developed Gaiters, leg-worn devices that generate 2D skin stretch feedback to simulate virtual textures and directional cues. Conducted studies on perceivable stretch and evaluated user experiences. Results show rich and enjoyable haptic feedback on the lower limbs in VR."
-    },
-    {
-      "name": "ElastiLinks: Force Feedback between VR Controllers with Dynamic Points of Application of Force",
-      "publisher": "Tzu-Yun Wei, Hsin-Ruey Tsai, Yu-So Liao, Chieh Tsai, Yi-Shan Chen, <span style='font-weight:900;'>Chi Wang</span>, Bing-Yu Chen",
-      "releaseDate": "ACM UIST 20",
-      "list": 4,
-      "url": "https://dl.acm.org/doi/10.1145/3379337.3415836",
-      "pdf": "/assets/papers/ElastiLink.pdf",
-      "summary": "Developed ElastiLinks, handheld VR controllers that provide force feedback with dynamic points of application (PAFs) using rotatable tracks. Conducted perception studies on resistive and impact forces, as well as PAF offsets and rotations. Results show that dynamic PAFs enhance realism and user experience in VR."
-    },
-    {
       "name": "Masque: Exploring Lateral Skin Stretch Feedback on the Face with Head-Mounted Displays",
       "publisher": "<span style='font-weight:900;'>Chi Wang</span>, Da-Yuan Huang, Shuo-Wen Hsu, Chu-En Hou, Yeu-Luen Chiu, Ruei-Che Chang, Jo-Yu Lo, Bing-Yu Chen",
       "releaseDate": "ACM UIST 19",
-      "list": 3,
+      "list": 11,
       "url": "https://dl.acm.org/doi/10.1145/3332165.3347898",
       "pdf": "/assets/papers/Masque.pdf",
       "summary": "Developed Masque, an HMD prototype with six skin stretch modules providing 2D haptic feedback on the face. Conducted studies on shear tactor design, comfort, and perceivable stretch distances and angles. Results show Masque enhances VR experiences and is well-received by users as a novel HMD feedback modality."
     },
     {
+      "name": "Gaiters: Exploring Skin Stretch Feedback on Legs for Enhancing Virtual Reality Experiences",
+      "publisher": "<span style='font-weight:900;'>Chi Wang</span>, Da-Yuan Huang, Shuo-Wen Hsu, Cheng-Lung Lin, Yeu-Luen Chiu, Chu-En Hou, Bing-Yu Chen",
+      "releaseDate": "ACM CHI 20",
+      "list": 10,
+      "url": "https://dl.acm.org/doi/10.1145/3313831.3376865",
+      "pdf": "/assets/papers/Gaiters.pdf",
+      "summary": "Developed Gaiters, leg-worn devices that generate 2D skin stretch feedback to simulate virtual textures and directional cues. Conducted studies on perceivable stretch and evaluated user experiences. Results show rich and enjoyable haptic feedback on the lower limbs in VR."
+    },
+    {
       "name": "Aarnio: Passive Kinesthetic Force Output for Foreground Interactions on an Interactive Chair",
       "publisher": "Shan-Yuan Teng, Da-Yuan Huang, <span style='font-weight:900;'>Chi Wang</span>, Jun Gong, Teddy Seyed, Xing-Dong Yang, Bing-Yu Chen",
       "releaseDate": "ACM CHI 19",
-      "list": 2,
+      "list": 9,
       "url": "https://dl.acm.org/doi/10.1145/3290605.3300902",
       "pdf": "/assets/papers/Aarnio.pdf",
       "summary": "Developed Aarnio, a standard office chair prototype providing foreground haptic force output, modulating resistive forces when rotating, tilting, or rolling the chair. Conducted studies to determine recognizability of five force profiles. Results demonstrate novel interaction techniques for immersive VR and ubiquitous computing environments."
@@ -147,87 +213,55 @@
       "name": "PuPoP: Pop-up Prop on Palm for Virtual Reality",
       "publisher": "Shan-Yuan Teng, Tzu-Sheng Kuo, <span style='font-weight:900;'>Chi Wang</span>, Chi-huan Chiang, Da-Yuan Huang, Liwei Chan, Bing-Yu Chen",
       "releaseDate": "ACM UIST 18",
-      "list": 1,
+      "list": 8,
       "url": "https://dl.acm.org/doi/10.1145/3242587.3242628",
       "pdf": "/assets/papers/Pupop.pdf",
       "summary": "Developed PuPoP, a lightweight pneumatic palm interface that pops airbags with predefined shapes to simulate grasping virtual objects. Conducted user studies on shape perception and VR interaction. Results show that dynamic PuPoP enhances realism and enjoyment in VR object manipulation."
+    },
+    {
+      "name": "ElastiLinks: Force Feedback between VR Controllers with Dynamic Points of Application of Force",
+      "publisher": "Tzu-Yun Wei, Hsin-Ruey Tsai, Yu-So Liao, Chieh Tsai, Yi-Shan Chen, <span style='font-weight:900;'>Chi Wang</span>, Bing-Yu Chen",
+      "releaseDate": "ACM UIST 20",
+      "list": 7,
+      "url": "https://dl.acm.org/doi/10.1145/3379337.3415836",
+      "pdf": "/assets/papers/ElastiLink.pdf",
+      "summary": "Developed ElastiLinks, handheld VR controllers that provide force feedback with dynamic points of application (PAFs) using rotatable tracks. Conducted perception studies on resistive and impact forces, as well as PAF offsets and rotations. Results show that dynamic PAFs enhance realism and user experience in VR."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>Designing AR HMI Controls for Robotic Systems</a>",
+      "releaseDate": "Work at AUO",
+      "list": 6,
+      "summary": "This project explored a new human-machine interaction paradigm for industrial environments. I designed a proof-of-concept using an Augmented Reality (AR) interface to enable intuitive and seamless gestural control of a robotic system."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>Mobile Banking Interface for Overseas Bond & Fund Trading</a>",
+      "releaseDate": "Work at WebComm",
+      "list": 5,
+      "summary": "I developed and maintained a new mobile interface to enable customers to securely trade overseas bonds and manage funds. This project focused on creating a clear, intuitive experience that translated complex financial data into a user-friendly mobile application."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>Self-Testing Firmware for Solid-State Drives (SSD)</a>",
+      "releaseDate": "Work at Phison",
+      "list": 4,
+      "summary": "This project focused on enhancing product reliability by developing and maintaining a self-testing firmware system for SSDs. My work ensured the continuous validation of core components and proactively identifying issues for better product quality."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>Rehabilitation and Fitness Wristband</a>",
+      "releaseDate": "Course Project",
+      "list": 3,
+      "summary": "A smart wristband solution that empowers users in both rehabilitation and fitness. It provides real-time motion tracking and Bluetooth feedback to ensure safe and effective exercise, transforming a traditional workout into a data-driven, guided experience."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>Bridging Unity and Arduino</a>",
+      "list": 2,
+      "summary": "Bridges the physical and virtual worlds. The Arduino-based embedded system collects real-time data (e.g., from a three-axis accelerometer or gyroscope) and transmits it to our Unity application via a physical connection (such as USB) or Bluetooth for real-time visualization and feedback. Conversely, our Unity interface can also send messages back to the Arduino to control components like a motor."
+    },
+    {
+      "name": "<a href style='pointer-events: none;'>PID Controller</a>",
+      "list": 1,
+      "summary": "Using a PID Controller to Control a Motor. A PID controller is highly effective for motor control. Its primary application is to ensure a motor's output—such as speed, position, or torque—precisely reaches and maintains a set target value."
     }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "categories": [
-        {
-          "items": [
-            "C/C++", 
-            "C#", 
-            "Java", 
-            "Javascript"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Human-Computer Interaction",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "categories": [
-        {
-          "title": "Research Methods",
-          "items": [
-            "User Study Design",
-            "Survey Methods (Likert Scale, Pre/Post Testing)",
-            "Usability Testing",
-            "Qualitative Analysis"
-          ]
-        },
-        {
-          "title": "Prototyping & Tools",
-          "items": [
-            "Arduino (C/C++)",
-            "Unity3D (C#)",
-            "Processing (Java)",
-            "SteamVR, LeapMotion, MRTK",
-            "Android Studio"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Front-end Development",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "categories": [
-        {
-          "items": [
-            "Javascript", 
-            "HTML", 
-            "CSS", 
-            "JQuery", 
-            "Ajax"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tools & Soft Skills",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "categories": [
-        {
-          "items": [
-            "Git", 
-            "Jira",
-            "Confluence",
-            "Team Collaboration", 
-            "Time Management", 
-            "Adaptability"
-          ]
-        }
-      ]
-    }
+
   ],
   "languages": [
     {

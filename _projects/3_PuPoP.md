@@ -6,7 +6,7 @@ img: assets/img/PuPoP/PuPoP_30.gif
 importance: 3
 category: Human-Computer Interactions
 paper: ACM UIST 18
-author: Shan-Yuan Teng, Tzu-Sheng Kuo, <span style='font-weight:900;'>Chi Wang</span>, Chi-huan Chiang, Da-Yuan Huang, Liwei Chan, Bing-Yu Chen
+author: Shan-Yuan Teng, Tzu-Sheng Kuo, <span class="my-color-b" style='font-weight:900;'>Chi Wang</span>, Chi-huan Chiang, Da-Yuan Huang, Liwei Chan, Bing-Yu Chen
 ---
 
 A lightweight pneumatic palm interface that pops airbags with predefined shapes to simulate grasping virtual objects. Conducted user studies on shape perception and VR interaction. Results show that dynamic PuPoP enhances realism and enjoyment in VR object manipulation.
@@ -17,7 +17,7 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- Motivation -->
 <div>
-    <h2 class="mt-5 font-weight-bold">Motivation</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">Motivation</h2>
 
     <p>Haptic feedback in VR often relies on vibration or external devices, which cannot fully simulate the sensation of holding physical objects. Many interactions in VR involve grasping, touching, or manipulating items, yet providing realistic haptic cues for these actions remains challenging. PuPoP was motivated by the desire to explore palm-based haptic feedback that can create tangible, on-demand props directly in the user’s hand, without requiring the user to hold external hardware throughout the experience.</p>
 
@@ -30,13 +30,13 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- Design -->
 <div>
-    <h2 class="mt-5 font-weight-bold">Design Prototype</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">Design Prototype</h2>
         <p>PuPoP is a wearable system that mounts small foldable props on the palm, which can “pop up” when needed in VR.</p>
         <ul>
-            <li><b style="font-weight:900;">Mechanism:</b> The system consists of thin, lightweight structures that fold flat when not in use and expand into different shapes (e.g., sphere, cylinders, box) using a pop-up mechanism.</li>
-            <li><b style="font-weight:900;">Customization:</b> Different prop shapes can be mounted on the palm to simulate a variety of virtual objects.</li>
-            <li><b style="font-weight:900;">Interaction:</b> By aligning the props with VR visual cues, users perceive the props as virtual objects, creating a stronger sense of presence.</li>
-            <li><b style="font-weight:900;">Comfort:</b>The device was designed to be low-profile and lightweight so that it does not interfere with natural hand movement when props are not deployed.</li>
+            <li><b class="my-color-b" style="font-weight:900;">Mechanism:</b> The system consists of thin, lightweight structures that fold flat when not in use and expand into different shapes (e.g., sphere, cylinders, box) using a pop-up mechanism.</li>
+            <li><b class="my-color-b" style="font-weight:900;">Customization:</b> Different prop shapes can be mounted on the palm to simulate a variety of virtual objects.</li>
+            <li><b class="my-color-b" style="font-weight:900;">Interaction:</b> By aligning the props with VR visual cues, users perceive the props as virtual objects, creating a stronger sense of presence.</li>
+            <li><b class="my-color-b" style="font-weight:900;">Comfort:</b>The device was designed to be low-profile and lightweight so that it does not interfere with natural hand movement when props are not deployed.</li>
         </ul>
 
         <div class="row justify-content-sm-center">
@@ -54,33 +54,33 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- System Design & Implementation -->
 <div>
-    <h2 class="mt-5 font-weight-bold">System Design & Implementation</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">System Design & Implementation</h2>
         <p>PuPoP is a wearable system that mounts small foldable props on the palm, which can “pop up” when needed in VR.</p>
         <ul>
-            <li><b style="font-weight:900;">Props on Palm</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Props on Palm</b></li>
                 Props are mounted on the palm using a fabric strap with hook-and-loop fasteners, making them easily attachable/detachable for switching between VR applications.
-            <li><b style="font-weight:900;">Prop Stacking</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Prop Stacking</b></li>
                 Multiple props can be stacked to support more complex VR tasks. Stacking follows two rules:
                 <ul>
                     <li>Props must have similar flattened dimensions.</li>
                     <li>Props are stacked in the order of box → cylinder → sphere, minimizing interference.</li>
                     <li>A deflation system ensures that smaller props remain flat when larger props inflate.</li>
                 </ul>
-            <li><b style="font-weight:900;">Prop Extension</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Prop Extension</b></li>
                 To enable thumb-and-finger grasping (pad-opposite grasp), props can be extended off the palm using:
                 <ul>
                     <li>Parallel extension: A small box airbag lifts the prop upward.</li>
                     <li>Tilt extension: A triangular airbag tilts the prop, allowing pen-like interactions.</li>
                 </ul>
-            <li><b style="font-weight:900;">Prop Sensing & Finger Operation</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Prop Sensing & Finger Operation</b></li>
                 <ul>
                     <li>Hand tracking: Leap Motion is used for palm/finger tracking when props are deflated.</li>
                     <li>Touch sensing: Flexible FSR sensors are attached to props, detecting grasp, press, and squeeze events.</li>
                     <li>Force interaction: Sensor data allows the system to infer applied force without recalibration.</li>
                 </ul>
-            <li><b style="font-weight:900;">Object Properties Emulation</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Object Properties Emulation</b></li>
                 Using pneumatic actuation, props can emulate stiffness, elasticity, and pulsation. For example, inflation patterns simulate a heartbeat, while controlled air pressure creates variable stiffness.
-            <li><b style="font-weight:900;">Incorporation into VR</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Incorporation into VR</b></li>
                 Integrated with HTC Vive + Leap Motion in Unity 3D. Two grasping modes were developed:
                 <ul>
                     <li>Natural Grasp: Props inflate just before contact so users can grasp fully-formed props aligned with virtual objects.</li>
@@ -104,10 +104,10 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- Demo Application -->
 <div>
-    <h2 class="mt-5 font-weight-bold">Demo Application</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">Demo Application</h2>
         <p>Two fantasy VR applications with different scenarios of object manipulation have been created to demonstrate the aforementioned designs of PuPoP.</p>
         <ul>
-            <li><b style="font-weight:900;">Quidditch Sports Training</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Quidditch Sports Training</b></li>
                 <ul>
                     <li>Inspired by the Harry Potter game Quidditch.</li>
                     <li>Players wear two spherical props of different sizes (via prop stacking).</li>
@@ -118,7 +118,7 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
                         </ul>
                     <li>Uses natural grasp: props inflate when approaching a ball and deflate when releasing.</li>
                 </ul>
-            <li><b style="font-weight:900;">Magic Brush Painting</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Magic Brush Painting</b></li>
                 <ul>
                     <li>A 3D drawing app.</li>
                     <li>Players use a cylindrical prop (brush) and a box prop (eraser) mounted on the palm (prop stacking).</li>
@@ -139,24 +139,24 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- User Study -->
 <div>
-    <h2 class="mt-5 font-weight-bold">User study</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">User study</h2>
         <p>The studies focused on whether users could recognize shapes, how natural the interactions felt, and how much the haptic props improved presence in VR.</p>
         <ul>
             <!-- study 1-->
-            <li><b style="font-weight:900;">Visual Size Acceptance Range</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">Visual Size Acceptance Range</b></li>
             <ul>
-                <li><b style="font-weight:900;">Goal</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Goal</b></li>
                 <ul>
                     <li>Test whether PuPoP can exploit visuo-haptic illusions so one fixed-size prop can represent multiple virtual objects of varying sizes.</li>
                 </ul>
-                <li><b style="font-weight:900;">Experimental Design</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Experimental Design</b></li>
                 <ul>
                     <li>Props: 9 total (3 primitive shapes × 3 sizes) and only size was varied (not texture, color, or shape details).</li>
                     <li>Medium size props were chosen to fit most hands; smaller/larger props differed by ±1 cm.</li>
                     <li>Used an adaptive staircase method (one-up-one-down) to find upper and lower bounds of acceptable visual sizes.</li>
                     <li>PuPoP mounted on palm (not visible to participant) and participants grasped props and judged whether visual size matched haptic size</li>
                 </ul>
-                <li><b style="font-weight:900;">Results & Observations</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Results & Observations</b></li>
                 <ul>
                     <li>Acceptance ranges overlapped across prop sizes → a small set of physical props can cover a wide range of virtual sizes.</li>
                     <li>On average:</li>
@@ -174,13 +174,13 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
                 </div>
             </div>
             <!-- study 2-->
-            <li><b style="font-weight:900;">VR Enjoyment & Object Realism</b></li>
+            <li><b class="my-color-b" style="font-weight:900;">VR Enjoyment & Object Realism</b></li>
             <ul>
-                <li><b style="font-weight:900;">Goal</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Goal</b></li>
                 <ul>
                     <li>Investigate whether PuPoP increases enjoyment and object realism in VR compared to two baselines: (1) HTC VIVE Controller (2) Free-hand manipulation (Leap Motion)</li>
                 </ul>
-                <li><b style="font-weight:900;">Experimental Design</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Experimental Design</b></li>
                 <ul>
                     <li>Quidditch Sports Training → throwing balls, catching Golden Snitch</li>
                     <ul>
@@ -199,7 +199,7 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
                         </ul>
                     <li>Each participant tested all 3 interfaces (counter-balanced order) and rated enjoyment and object realism on 7-point Likert scale + interview</li>
                 </ul>
-                <li><b style="font-weight:900;">Results (ANOVA analysis)</b></li>
+                <li><b class="my-color-b" style="font-weight:900;">Results (ANOVA analysis)</b></li>
                 <ul>
                     <li>Quidditch:</li>
                         <ul>
@@ -226,7 +226,7 @@ A lightweight pneumatic palm interface that pops airbags with predefined shapes 
 
 <!-- Finding -->
 <div>
-    <h2 class="mt-5 font-weight-bold">Finding</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">Finding</h2>
         <p>Overall, the studies demonstrated that PuPoP successfully enables palm-mounted inflatable props to serve as versatile physical counterparts for virtual objects in VR. The system effectively leveraged visuo-haptic illusions, allowing a small set of physical props to represent a wide range of virtual sizes. Through prop stacking and extensions, PuPoP supported more complex grasping interactions beyond simple palm-opposite grasps, while the integration of sensing and pneumatic actuation enabled realistic emulation of object properties such as stiffness, weight, and pulsation. User studies showed that participants could accept size variations and interact naturally with the props, validating PuPoP as an effective and flexible on-body proxy interface for enhancing immersion in VR.</p>
 </div>
 

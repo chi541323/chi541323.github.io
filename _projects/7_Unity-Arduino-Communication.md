@@ -47,7 +47,7 @@ Bridges the physical and virtual worlds. The Arduino-based embedded system colle
 </div>
 
 <div>
-    <h2 class="mt-5 font-weight-bold">Example</h2>
+    <h2 class="mt-5 font-weight-bold my-color-b">Example</h2>
     <div>
         <p>You can download Arduino and Unity3D example to control motor here
             <a href="/assets/BridgingUnityArduino/Controller-Arduino-and-Unity.zip" class="btn-no-shadow btn btn-sm btn-outline-primary ml-1 ml-md-4 mt-1" target="_blank">

@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Human-Computer Interactions, UI/UX, Fun]
+display_categories: [Human-Computer Interactions, UI/UX, Embedded System, Fun]
 horizontal: true
 ---
 
@@ -15,7 +15,7 @@ horizontal: true
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category" style="color: rgba(0, 0, 0, 0.3);">{{ category }}</h2>
+    <h2 class="category my-color-part">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

@@ -1423,3 +1423,11 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.my-color-part {
+  color: var(--global-my-text-color) !important;
+}
+
+.my-color-b {
+  color: var(--global-my-color) !important;
+}
