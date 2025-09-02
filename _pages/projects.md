@@ -14,7 +14,7 @@ horizontal: true
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a style="pointer-events: none;" id="{{ category }}">
     <h2 class="category my-color-part">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
