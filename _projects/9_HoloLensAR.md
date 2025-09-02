@@ -2,7 +2,7 @@
 layout: page
 title: Designing AR HMI Controls for Robotic Systems
 description: This project explored a new human-machine interaction paradigm for industrial environments. I designed a proof-of-concept using an Augmented Reality (AR) interface to enable intuitive and seamless gestural control of a robotic system.
-img: assets/img/HololensAR/3.png
+img: assets/img/HoloLensAR/3.png
 importance: 7
 category: UI/UX
 paper: Work at AUO
@@ -53,10 +53,10 @@ paper: Work at AUO
     <!-- image -->
     <div class="row justify-content-sm-center mt-5">
         <div class="col-sm-6 mt-md-0">
-            {% include figure.liquid loading="eager" path="assets/img/HololensAR/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/HoloLensAR/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm-6 mt-md-0">
-            {% include figure.liquid loading="eager" path="assets/img/HololensAR/2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/HoloLensAR/2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
