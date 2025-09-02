@@ -407,6 +407,11 @@ ninja.data = [{
           description: "I developed and maintained a new mobile interface to enable customers to securely trade overseas bonds and manage funds. This project focused on creating a clear, intuitive experience that translated complex financial data into a user-friendly mobile application.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_BankApp/";
+            },},{id: "projects-self-testing-firmware-for-solid-state-drives-ssd",
+          title: 'Self-Testing Firmware for Solid-State Drives (SSD)',
+          description: "This project focused on enhancing product reliability by developing and maintaining a self-testing firmware system for SSDs. My work ensured the continuous validation of core components and proactively identifying issues for better product quality.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_SSD/";
             },},{id: "projects-masque-exploring-lateral-skin-stretch-feedback-on-the-face-with-head-mounted-displays",
           title: 'Masque - Exploring Lateral Skin Stretch Feedback on the Face with Head-Mounted Displays...',
           description: "An HMD prototype with six skin stretch modules providing 2D haptic feedback on the face. Conducted studies on shear tactor design, comfort, and perceivable stretch distances and angles. Results show Masque enhances VR experiences and is well-received by users as a novel HMD feedback modality.",
